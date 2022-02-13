@@ -1,0 +1,37 @@
+{
+    "name": "TG Public Stream Bot",
+    "description": "Telegram Bot to get instantly download Telegram Files, powered by @MadeLineProto",
+    "keywords": [
+        "telegram",
+        "bot",
+        "productivity",
+        "instant",
+        "upload",
+        "download",
+        "transfer"
+    ],
+    "repository": "https://github.com/SpEcHiDe/PublicStream",
+    "website": "https://t.me/c/1049295266/16081",
+    "success_url": "https://t.me/c/1049295266/16482",
+    "env": {
+        "TG_API_ID": {
+            "description": "Get this value from my.telegram.org! Please do not steal"
+        },
+        "TG_API_HASH": {
+            "description": "Get this value from my.telegram.org! Please do not steal"
+        },
+        "TG_BOT_TOKEN": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather"
+        }
+    },
+    "buildpacks": [{
+        "url": "heroku/php"
+    }],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "heroku-20"
+}

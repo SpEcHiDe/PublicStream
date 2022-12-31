@@ -1,3 +1,7 @@
+# DEPRECATED
+
+due to changes in Telegram API around `1670494235`, using this API would lead to ban of your Telegram Account
+
 ## Telegram Public Stream Bot
 
 - a quick way to get fast download links, of Telegram Media
